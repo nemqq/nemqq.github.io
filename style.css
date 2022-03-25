@@ -2,16 +2,12 @@
 
 :root{
     --back_col: rgb(5, 22, 17);
-
-
 }
+
 *,*::after,*::before {
-
     box-sizing: inherit;
-
     color:white;
     font-family: 'JetBrains Mono', monospace;
-    
     font-weight: 500;
 }
 
@@ -23,10 +19,8 @@ html,body {
     /* background: cornflowerblue; */
     background: #421C52;
     font-size: 18px;
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;   
 }
-
 
 .nav_bar {
     width: 100%;
@@ -34,10 +28,6 @@ html,body {
     background:rgb(5, 22, 17);
     display:flex;
     justify-content: space-between;
-    /* top: 0; */
-    /* left: 0; */
-    /* position: fixed; */
-    /* margin-bottom: 50px; */
 }
 
 .logo{
@@ -46,16 +36,13 @@ html,body {
 }
 
 .menu {
-    /* width: 700px; */
     width: auto;
     display: flex;
     justify-content: space-between;
     margin-right: 100px;
-
 }
 
 .menu > a {
-    /* margin: 20px 20px; */
     padding: 20px 20px;
 }
 
@@ -67,7 +54,6 @@ html,body {
     padding: 20px 10px 0 10px;
 }
 
-
 .options{
     position: relative;
     width: 200px;
@@ -75,8 +61,6 @@ html,body {
     justify-content: center;
     text-align: center;
 }
-
-
 
 a.opt {
     width: 100%;
@@ -97,29 +81,27 @@ a.opt {
     border-radius: 20px;
     padding: 0;
     display: none;
-
-    /* padding: 20px; */
-    /* display: none; */
 }
 .options ul li {
     padding: 10px;
 }
 
-
 .options ul li:hover {
     background-color:rgb(10, 41, 32) ;
-    /* background-color: aliceblue; */
     background-blend-mode: lighten ;
     border-radius: 7px;
 }
+
 .options ul li:last-child:hover{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px ;
 }
+
 .options ul li:first-child:hover{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px ;
 }
+
 .options ul li a{
     width: 100%;
     height: 100%;
@@ -129,7 +111,6 @@ a.opt {
 
 }
 
-
 .options a:focus +ul,
 .options a:hover +ul,
 .options ul:hover,
@@ -137,14 +118,10 @@ a.opt {
     display: block;  
 }
 
-
-
 main{
     padding-top: 110px;
     width: 100%;
-    
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
     padding-bottom: 0;
@@ -159,9 +136,7 @@ main{
     align-items: center;
     padding: 50px;
     border-bottom: 5px solid violet;
-    border-radius: 30px 30px 0 0;
-    
-    
+    border-radius: 30px 30px 0 0;    
 }
 
 .about div p {
@@ -171,7 +146,6 @@ main{
 }
 
 /* Section 2 style */
-
 .sec_2, .sec_3{
     width: 1000px;
     background-color: #532069;
@@ -193,13 +167,10 @@ main{
     width: auto;
     text-align: center;
     padding-bottom: 30px;
-    margin-right: 50px;
-    /* height: 5000px; */
-    
+    margin-right: 50px;    
 }
 
 .buttons {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -210,11 +181,9 @@ main{
     margin: 20px;
     width: 150px;
     height: 50px;
-
 }
 
 /* Section 3 style */
-
 .sec_3 div {
     min-height: 400px;
     text-align: center;
@@ -222,8 +191,6 @@ main{
 
 
 /* Footer style */
-
-
 footer{
     width: 100%;
     background: var(--back_col);
@@ -245,7 +212,6 @@ footer p{
 }
 
 .test-aa {
-/*    color: blueviolet;*/
     color: white;
     font-weight: bold;
     margin-bottom: 50px;
@@ -268,19 +234,10 @@ footer p{
     padding: 40px;
     text-align: center;
     text-decoration: none;
-    font-size: 12px;
-    /* background-color: rgb(138,65,235); */
-    /* padding: 20px; */
-    
-    
+    font-size: 12px;   
 }
 
-
-
-
 .test-aa:hover {
-    /* background-color: white; */
-    /* transform: scale(1.2); */
     border: solid white 7px;
     text-decoration: underline;
 }

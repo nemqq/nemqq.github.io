@@ -27,7 +27,6 @@ html body{
 } 
 
 /* header styling */
-
 header{
     /* background: yellow; */
     display: flex;
@@ -40,12 +39,10 @@ header{
     top:0;
     background-color: var(--backgorund3);
     z-index: 1;
-    
 }
 
 nav{
     margin-right: 20px;
-
 }
 
 .nav{
@@ -89,9 +86,9 @@ nav{
     width: 200px;
     /* height: 200px; */
 }
-
 /* end of header */
 
+/* Section 1 */
 #section_1{
     /* background-color: var(--aqua); */
     padding: 20px 200px;
@@ -102,13 +99,11 @@ nav{
 
 .about_me  {
     text-align: center;
-
 }
 
 .about_me h1{
     font-size: 50px;
     /* text-align: center; */
-    
 }
 
 .about_me span{
@@ -117,10 +112,7 @@ nav{
 /* end section 1 */
 
 
-
-
 /* SECTION IMG */
-
 #section_img1 {
     /* background: url(/img/fantasy_paralax.png); */
     background: url(/img/img_para.jpg);
@@ -140,8 +132,6 @@ nav{
     font-size: 50px;
 
 }
-
-
 
 #section_img2 {
     /* background-image: url(/img/section.png); */
@@ -168,7 +158,6 @@ nav{
 
 
 /*SECTION 2 STYLING*/
-
 #section_2{
     /* background: red; */
     padding: 20px;
@@ -176,8 +165,6 @@ nav{
     justify-content: space-around;
     margin-top: 100px;
     margin-bottom: 100px;
-    
-    
 }
 
 #section_2 > div {
@@ -187,13 +174,9 @@ nav{
     border-color: #0088A9;
     border-width: 5px;
     border-radius: 20px;
-
 }
 
-
-
 .wrapper-right h1{
-    
     font-size: 35px;
     font-weight: bolder;
     border-bottom: 2px solid aqua;
@@ -213,16 +196,12 @@ nav{
     flex-direction: column;
     align-items: center;
     /* justify-content: space-around; */
-    
 }
 
 .wrapper-left{
     display: flex;
     justify-content: center;
-
 }
-
-
 
 .wrapper-right:hover,
 .wrapper-left:hover{
@@ -233,7 +212,6 @@ nav{
     margin: 20px 10px;
 }
 
-
 .skills, .skills2 {
     width: 220px;
     margin: 10px;
@@ -241,31 +219,6 @@ nav{
     text-align: center;
 
 }
-
-/* .skills2{
-    background-color: transparent;
-}
-.skills2 p {
-    color: white;
-    background-color: transparent;
-    
-
-} */
-/* .p1 {
-    background: linear-gradient(90deg,red  0%, aqua 20%,transparent 90%);
-}
-.p2{
-    background: linear-gradient(90deg,red 0%,aqua 20%,transparent 40%);
-}
-.p3{
-    background: linear-gradient(90deg,red 0%,aqua 20%,transparent 55%);
-}
-.p4{
-    background: linear-gradient(90deg,red 0%,aqua 10%,transparent 20%);
-}
-.p5{
-    background:coral;
-} */
 
 .pp {
     font-size: 20px;
@@ -277,9 +230,7 @@ nav{
     margin-bottom: 20px;
     text-align: center;
     border-radius: 20px;
-
 }
-
 
 .skills p {
     width: 250px;
@@ -292,8 +243,8 @@ nav{
     margin-top: 50px;
 
 }
-
 /*SECTION 2 END*/
+
 
 footer > * {
     background: var(--aqua);
@@ -305,15 +256,12 @@ footer > * {
 .web_end_tekst  {
     font-size: 25px;
     line-height: 0.2;
-        
 }
 
 .web_end_tekst  > *{
     background-color: var(--aqua);
     font-size: 30px
-        
 }
-
   
 #section_3{
 /*    padding: 20px 200px 20px 200px;*/
@@ -329,28 +277,15 @@ footer > * {
     color: aquamarine
 }
 
-/*
-.testt , .fa-facebook ,.fa-github ,.fa-linkedin{
-    background: var(--background2)
-}
-.fa-facebook {
-    color:  green;
-    font-size: 30px
-        
-        
-}*/
-
 .testt * {
     font-size: 60px;
     background: var(--background2);
     padding: 0px 0px 0px 0px;
 }
 
-
 .testt{
     padding: 0px 0px 0px 0px;
 }
-
 
 .python, .web ,.c_proj {
     margin-left: auto;
@@ -358,7 +293,6 @@ footer > * {
     width: 500px;
     padding: 20px 20px;
     text-decoration: none;       
-
 }
 
 .linkss {
@@ -370,12 +304,6 @@ footer > * {
     color: black;
     font-size: 30px;
 }
-
-/*
-.fa-brands:hover{
-    font-size: 30px;
-}
-*/
 
 .aa {
     border-style: solid;
@@ -390,11 +318,6 @@ footer > * {
     
 }
 
-.python div * ,.web div *,.c_proj div * {
-/*    background: url("background1.jpg");*/
-    
-}
-
 .aa h3 {
     border-top-width:1px;
     border-top-style: solid;
@@ -403,16 +326,12 @@ footer > * {
 }
 
 .aa:hover{
-    
-/*    background: var(--aqua);*/
-/*    transform: translate(2s);*/
     transform: scale(1.1);
     box-shadow: 1px 1px 10px 2px lightblue;
     transition: transform 330ms ease-in-out;
     /* opacity: 0.5; */
     z-index: 0;
 }
-
 
 .CSS_end{
     font-size: 12px;
