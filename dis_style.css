@@ -2,10 +2,13 @@
 
 :root{
     --back_col: rgb(5, 22, 17);
-}
 
+
+}
 *,*::after,*::before {
+
     box-sizing: inherit;
+
     color:white;
     font-family: 'JetBrains Mono', monospace;
     scroll-behavior: smooth;
@@ -22,22 +25,30 @@ html,body {
     font-size: 18px;
 }
 
+
 .nav_bar {
     width: 100%;
     position: fixed;
     background:rgb(5, 22, 17);
     display:flex;
     justify-content: space-between;
+    /* flex-direction: column; */
+    /* align-items: center; */
     margin-bottom: 50px;
 }
 
 .logo{
     width: 200px;
     padding-left: 50px;
+/*    margin-left: 50px;*/
+        
 }
 
 .logo p {
-    text-align: center;   
+/*    padding: 20px;*/
+    text-align: center;
+    
+    
 }
 
 .menu {
@@ -48,6 +59,8 @@ html,body {
     justify-content: flex-end;
     margin-right: 50px;
 }
+
+
 
 .menu > a{
     /* margin: 20px 20px; */
@@ -100,6 +113,7 @@ a.opt {
     padding: 10px;
 }
 
+
 .options ul li:hover {
     background-color:rgb(10, 41, 32) ;
     /* background-color: aliceblue; */
@@ -123,12 +137,14 @@ a.opt {
 
 }
 
+
 .options a:focus +ul,
 .options a:hover +ul,
 .options ul:hover,
 .option:hover{
     display: block;  
 }
+
 
 main{
     padding-top: 110px;
@@ -157,6 +173,7 @@ main{
 .about div {
     text-align: center;
 }
+
 
 /* Section 2 style */
 .sec_2{
@@ -187,9 +204,11 @@ main{
 
 .menu a:hover{
     /* font-size: 72px; */
+    
     background: -webkit-linear-gradient(rgb(247, 53, 205), rgb(104, 31, 221));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 
 
@@ -242,6 +261,10 @@ main{
     padding: 20px;
     height: 750px;
     border-style: solid;
+    
+    /* justify-content: space-around; */
+    /* flex-direction: row-reverse; */
+
 }
 
 .conteiner_block div {
@@ -270,6 +293,7 @@ main{
 }
 
 
+
 /*DISPLAY STYLE BLOCK */
 /* WIDTH | HEIGHT DOES'T WORK IN INLINE OPOSITE TO INLINE-BLOCK */
 .conteiner_inline {
@@ -277,8 +301,11 @@ main{
     padding: 20px;
     height: 750px;
     border-style: solid;
+    
+    
     /* justify-content: space-around; */
     /* flex-direction: row-reverse; */
+
 }
 
 .conteiner_inline div {
@@ -307,6 +334,7 @@ main{
 }
 
 
+
 /*DISPLAY INLINE-BLOCK */
 /* IN INLINE-BLOCK U CAN PLACE ELEMENTS SIDE BY SIDE + SET WIDTH AND HEIGHT  */
 .conteiner_inlineBlock {
@@ -314,8 +342,10 @@ main{
     padding: 20px;
     height: 750px;
     border-style: solid;
+    
     /* justify-content: space-around; */
     /* flex-direction: row-reverse; */
+
 }
 
 .conteiner_inlineBlock div {
@@ -345,10 +375,12 @@ main{
 
 /*DISPLAY: GRID */
 /* IN INLINE-BLOCK U CAN PLACE ELEMENTS SIDE BY SIDE + SET WIDTH AND HEIGHT  */
+
 .conteiner_grid {
     padding: 20px;
     height: 750px;
     border-style: solid;
+ 
     display: grid;
 /*    grid-template-columns: 100px 200px 300px;*/
     grid-template-columns: 1fr 2fr 2fr;
@@ -357,11 +389,15 @@ main{
 /*    grid-gap: 15px;*/
     grid-row-gap: 40px;
     grid-column-gap: 10px;
+    
+    
 }
 
 .conteiner_grid div {
     font-size: 30px;
     font-weight: bold;
+
+
 }
 
 .item-1 {
@@ -387,13 +423,17 @@ main{
 }
 
 
+
 /*DISPLAY: GRID */
 /* IN INLINE-BLOCK U CAN PLACE ELEMENTS SIDE BY SIDE + SET WIDTH AND HEIGHT  */
+
+
 .conteiner_grid2 {
     padding: 20px;
     height: 750px;
     border-style: solid;
-     display: grid;
+ 
+    display: grid;
 /*    grid-template-columns: 100px 200px 300px;*/
     grid-template-columns: 1fr 2fr 2fr;
 /*    grid-template-columns: repeat(3, 200px)*/
@@ -407,13 +447,18 @@ main{
         "menu content"
         "menu content"
         "menu goofy";
+    
     grid-column-start: 1;
     grid-column-end: 3;
+    
+    
 }
 
 .conteiner_grid2 div {
     font-size: 30px;
     font-weight: bold;
+
+
 }
 
 .item-1-2 {
@@ -445,6 +490,8 @@ main{
 }
 
 
+
+
 /* Footer style */
 footer{
     width: 100%;
@@ -457,7 +504,6 @@ footer{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 footer h1 {
     font-size: 25px;
     font-weight: bolder;
@@ -466,6 +512,8 @@ footer h1 {
 footer p{
     color: grey;
 }
+
+
 
 .g_test {
     position: relative;
@@ -483,6 +531,7 @@ footer p{
 .g_test:hover + a,
 .g_c:hover{
     display: block;
+    
 }
 .g_test:hover + a{
     color: red;
