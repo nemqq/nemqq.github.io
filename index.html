@@ -1,115 +1,52 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html lang="PL">
-
+<!doctype html>
+<html lang="pl">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>WebDev_help</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-    <link rel="stylesheet" href="style.css">
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101014">
+  <meta name="description" content="Software Developer — embedded, C, C++, RTOS oraz DevOps, Python, CI/CD i automatyzacja. Współpraca B2B i UoP.">
+  <meta property="og:title" content="Software Developer — Embedded & DevOps">
+  <meta property="og:description" content="Od embedded po automatyzację. Poznaj moje obszary działania i porozmawiajmy o współpracy B2B lub UoP.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pl_PL">
+  <title>Software Developer — Embedded & DevOps</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.config.js" defer></script>
+  <script src="app.js" defer></script>
 </head>
-
 <body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-    <nav class="nav_bar">
-
-        <div class="logo">
-            <p>logo</p>
-        </div>
-
-        <div class="menu">
-            <div class="options">
-                <a class="opt" href="#">Menu</a>
-                <ul>
-                    <li><a href="#">Main Page</a> </li>
-                    <li><a href="display.html">Display</a> </li>
-                    <li><a href="#">Units</a> </li>
-                    <li><a href="index.html">nemqq page</a> </li>
-                </ul>
-            </div>
-            <a href="#effects">Effects</a>
-            <a href="#">Options</a>
-
-        </div>
-
-
-
-    </nav>
-    <main>
-    <section class="about">
-        <div>
-            <p>This page is for me to remember what I am doing</p>
-            <p>Scroll down</p>
-
-        </div>
-
-        
+  <a class="skip-link" href="#main">Przejdź do treści</a>
+  <header class="site-header"><div class="container header-inner">
+    <a class="wordmark" href="#start" aria-label="Strona główna">dev<span>.</span><span class="wordmark-cursor">_</span></a>
+    <nav id="main-nav" aria-label="Nawigacja główna"><a href="#o-mnie" data-nav="about">O mnie</a><a href="#specjalizacje" data-nav="expertise">Specjalizacje</a><a href="#projekty" data-nav="projects">Projekty</a><a href="#kontakt" class="nav-contact" data-nav="contact">Porozmawiajmy <span aria-hidden="true">↗</span></a></nav>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Otwórz menu"><span></span><span></span></button>
+  </div></header>
+  <main id="main">
+    <section class="hero container" id="start" aria-labelledby="hero-title">
+      <div class="hero-copy"><div class="eyebrow"><span class="tiny-line"></span><span id="hero-role">SOFTWARE DEVELOPER</span><span class="eyebrow-separator">/</span><span id="hero-contract">B2B / UoP</span></div>
+        <h1 id="hero-title"><span>Od embedded.</span><span class="accent-text">Po automatyzację.</span></h1>
+        <p id="hero-intro" class="hero-intro"></p>
+        <div class="hero-actions"><a class="button button-primary" href="#kontakt" data-nav="contact">Porozmawiajmy <span aria-hidden="true">↗</span></a><a class="button button-text" href="#projekty" data-nav="projects">Zobacz projekty <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-availability"><span class="status-dot"></span><span id="availability"></span></div>
+      </div>
+      <div class="workspace" role="img" aria-label="Schemat obszarów: embedded w C i C++, automatyzacja w Pythonie oraz pipeline CI/CD">
+        <div class="workspace-top"><span class="window-dots"><i></i><i></i><i></i></span><span>developer.workspace</span><span class="workspace-branch">⑂ main</span></div>
+        <div class="workspace-body"><div class="workspace-label"><span>SYSTEM OVERVIEW</span><span class="workspace-live">●</span></div>
+          <div class="system-diagram"><div class="diagram-orbit orbit-one"></div><div class="diagram-orbit orbit-two"></div><span class="diagram-node node-one"></span><span class="diagram-node node-two"></span><span class="diagram-node node-three"></span><div class="core-chip"><span class="core-braces">{<b>/</b>}</span><span>CODE TO IMPACT</span></div><span class="diagram-tag tag-one">&lt;embedded /&gt;</span><span class="diagram-tag tag-two">automation.py</span></div>
+          <div class="workspace-domains"><div><span class="domain-indicator"></span><span>embedded<span class="domain-stack">C / C++ · RTOS</span></span><span class="domain-arrow">↗</span></div><div><span class="domain-indicator indicator-light"></span><span>automation<span class="domain-stack">Python · CI/CD</span></span><span class="domain-arrow">↗</span></div></div>
+          <div class="pipeline-flow"><span>source</span><i>→</i><span>build</span><i>→</i><span>test</span><i>→</i><span class="pipeline-deploy">deploy <b>↗</b></span></div>
+          <div class="terminal-line"><span>❯</span><span> turning ideas into working systems</span><span class="terminal-cursor"></span></div>
+        </div><div class="workspace-bottom"><span>EMBEDDED × DEVOPS</span><span>01 — ∞</span></div>
+      </div>
+      <div class="hero-bottom"><span>KOD. PROCES. DZIAŁAJĄCE ROZWIĄZANIE.</span><a href="#o-mnie" data-nav="about">Przewiń, poznajmy się <span aria-hidden="true">↓</span></a></div>
     </section>
-
-    <section class="sec_2">
-        <aside class="aside_menu">
-            <h1>How to use: </h1>
-            <samp>I use these examples to test the code, 
-                it allows me to verify the effect and re-use
-                 them in other projects. Additional If I 
-                 forget some of them, I can come back here and see how I did it before. C: </samp>
-
-        </aside>
-
-        <div>
-            <h1>Main page content</h1>
-            <p>Below are links to pages with css functions use in boxes. </p>
-            <div class="buttons">
-        
-                <!-- <button class="test-bb" type="button">Selectors</button> -->
-                <a href="display.html" class="test-aa">Display</a>
-                <a href="#" class="test-aa">Positions</a>
-                <a href="#" class="test-aa">Units</a>
-                <a href="#" class="test-aa">Box sizing</a>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="sec_3">
-        
-        <div  class="par">
-            <h1>Effects</h1>
-            <a>asdsa</a>
-            <p >place holder</p>
-            <a class="tttt" href="#">asdada</a>
-            <a class="gol" href="sdasdas">asdasdas</a>
-            <p>csdfadfs</p>
-            <h4>sadas</h4>
-
-
-        </div>
-
-
-
-    </section>
-    </main>
-
-    <footer>
-
-        <h1>Nemqq.dev</h1>
-        <p>2022 &#169 Copyrights All right.. BLABLA</p>
-
-    </footer>
-
-    <script src="" async defer></script>
+    <section class="section about-section" id="o-mnie" data-section="about" aria-labelledby="about-title"><div class="container about-layout"><div><p class="section-label">01 / O MNIE</p><h2 id="about-title">Dwa obszary.<br><span class="muted-heading">Jedna ciekawość.</span></h2></div><div class="about-copy"><p id="about-text"></p><div class="about-facts"><span><i aria-hidden="true">↳</i> <span id="profile-role">Software Developer</span></span><span><i aria-hidden="true">↳</i> <span id="profile-contract">Współpraca B2B / UoP</span></span><span id="location-row" hidden><i aria-hidden="true">↳</i> <span id="profile-location"></span></span></div><a id="cv-link" class="inline-link" hidden>Pobierz CV <span aria-hidden="true">↗</span></a></div></div></section>
+    <section class="section expertise-section container" id="specjalizacje" data-section="expertise" aria-labelledby="expertise-title"><div class="section-heading"><div><p class="section-label">02 / SPECJALIZACJE</p><h2 id="expertise-title">W czym mogę pomóc<span class="accent-text">.</span></h2></div><p>Od kodu blisko sprzętu<br>po sprawniejszy proces dostarczania.</p></div><div id="expertise-list" class="expertise-list"></div></section>
+    <section class="section projects-section container" id="projekty" data-section="projects" aria-labelledby="projects-title"><div class="section-heading"><div><p class="section-label">03 / PROJEKTY</p><h2 id="projects-title">Mniej słów. Więcej kodu<span class="accent-text">.</span></h2></div><span id="project-count" class="project-count"></span></div><p id="projects-note" class="projects-note">Pierwsze realizacje pojawią się tutaj wkrótce.</p><div class="projects-grid" id="projects-grid"></div></section>
+    <section class="contact-section" id="kontakt" data-section="contact" aria-labelledby="contact-title"><div class="container contact-inner"><div class="contact-topline"><p class="section-label">04 / KONTAKT</p><span class="contact-contract">B2B <i>+</i> UoP</span></div><h2 id="contact-title">Zbudujmy coś dobrego.</h2><p id="contact-text"></p><div class="contact-actions"><a id="contact-email" class="email-link"></a><button class="copy-email" type="button" aria-label="Kopiuj adres e-mail" title="Kopiuj adres e-mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg></button><span class="copy-status" role="status" aria-live="polite"></span></div><div id="contact-socials" class="socials"></div><span class="contact-asterisk" aria-hidden="true">✳</span></div></section>
+  </main>
+  <footer class="container footer"><a class="wordmark" href="#start" aria-label="Powrót na początek">dev<span>.</span><span class="wordmark-cursor">_</span></a><span id="footer-credit"></span><a href="#start" class="back-top">Na górę <span aria-hidden="true">↑</span></a></footer>
+  <noscript><div class="noscript-note">Kontakt: <a href="mailto:kamil.qvr@gmail.com">kamil.qvr@gmail.com</a>. Włącz JavaScript, aby zobaczyć pełną treść portfolio.</div></noscript>
 </body>
-
 </html>
